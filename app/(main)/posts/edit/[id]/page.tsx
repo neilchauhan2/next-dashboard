@@ -70,7 +70,7 @@ function PostEditPage({ params }: PostEditPageProps) {
               <FormItem>
                 <FormLabel className="uppercase text-xs font-bold text-zinc-500 dark:text-white">Title</FormLabel>
                 <FormControl>
-                  <Input className="bg-slate-100 border-0 focus-visible:ring-0 text-black dark:text-white focus-visible:ring-offset-0" placeholder="Enter Title" {...field} />
+                  <Input className="bg-slate-100 border-0 focus-visible:ring-0 text-black dark:text-white focus-visible:ring-offset-0 dark:bg-slate-500" placeholder="Enter Title" {...field} />
                 </FormControl>
                 <FormMessage />
               </FormItem>
@@ -82,9 +82,9 @@ function PostEditPage({ params }: PostEditPageProps) {
             name={'body'}
             render={({ field }) => (
               <FormItem>
-                <FormLabel className="uppercase text-xs font-bold text-zinc-500 dark:text-white">Body</FormLabel>
+                <FormLabel className="uppercase text-xs font-bold text-zinc-500 dark:text-white ">Body</FormLabel>
                 <FormControl>
-                  <Textarea className="bg-slate-100 border-0 focus-visible:ring-0 text-black dark:text-white focus-visible:ring-offset-0" placeholder="Enter Body" {...field} />
+                  <Textarea className="bg-slate-100 border-0 focus-visible:ring-0 text-black dark:text-white focus-visible:ring-offset-0 dark:bg-slate-500" placeholder="Enter Body" {...field} />
                 </FormControl>
                 <FormMessage />
               </FormItem>
@@ -98,7 +98,7 @@ function PostEditPage({ params }: PostEditPageProps) {
               <FormItem>
                 <FormLabel className="uppercase text-xs font-bold text-zinc-500 dark:text-white">Date</FormLabel>
                 <FormControl>
-                  <Input className="bg-slate-100 border-0 focus-visible:ring-0 text-black dark:text-white focus-visible:ring-offset-0" placeholder="Enter Date" {...field} />
+                  <Input className="bg-slate-100 border-0 focus-visible:ring-0 text-black dark:text-white focus-visible:ring-offset-0 dark:bg-slate-500" placeholder="Enter Date" {...field} />
                 </FormControl>
                 <FormMessage />
               </FormItem>
