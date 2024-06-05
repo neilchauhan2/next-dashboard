@@ -58,7 +58,7 @@ function PostEditPage({ params }: PostEditPageProps) {
     })
   }
   return (
-    <div>
+    <div className="h-screen">
       <BackButton text="Back to Posts" link="/posts" />
       <h3 className="text-2xl mb-4">Edit Post</h3>
       <Form {...form}>
